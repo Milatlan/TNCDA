@@ -261,10 +261,12 @@ export default function Benefits() {
               {/* IMAGE / VISUAL AREA */}
               <div className="ben-card-media">
                 {item.image ? (
-                  <img
+                  <Image
                     src={item.image}
                     alt={item.title}
                     className="ben-card-img"
+                    width={500}
+                    height={300}
                     loading="lazy"
                   />
                 ) : (

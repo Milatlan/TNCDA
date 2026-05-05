@@ -14,12 +14,12 @@ const REGION_COLORS: Record<string, string> = {
   "Eastern":  "#4DC9BD",
 };
 
-const STATS = [
-  { num: "12",   label: "Active Chapters" },
-  { num: "38",   label: "Districts Served" },
-  { num: "760+", label: "Total Members"    },
-  { num: "6",    label: "Regions Covered"  },
-];
+// const STATS = [
+//   { num: "12",   label: "Active Chapters" },
+//   { num: "38",   label: "Districts Served" },
+//   { num: "760+", label: "Total Members"    },
+//   { num: "6",    label: "Regions Covered"  },
+// ];
 
 export default function ChaptersPage() {
   return (
@@ -203,12 +203,12 @@ export default function ChaptersPage() {
             <div className="ch-cta-left">
               <p className="ch-cta-eyebrow">Start a Chapter</p>
               <h2 className="ch-cta-title">
-                Your city isn't listed?<br />
-                <em>Let's change that.</em>
+                Your city isnn&apos;t listed?<br />
+                <em>Let&apos;s change that.</em>
               </h2>
               <p className="ch-cta-body">
                 TNCNA is actively looking for district leaders to establish
-                new circles. Join the mission of building Tamil Nadu's most
+                new circles. Join the mission of building India&apos;s most
                 connected professional network.
               </p>
             </div>

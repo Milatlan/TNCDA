@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { EVENTS, DISTRICT_CONTACTS } from "@/lib/siteData";
+import { EVENTS } from "@/lib/siteData";
 const UPCOMING_EVENTS = EVENTS;
 
 

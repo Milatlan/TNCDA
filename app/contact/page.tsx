@@ -9,7 +9,6 @@ import {
   CONTACT_DISTRICTS,
   CONTACT_INFO,
   CONTACT_TRUST_ITEMS,
-  DISTRICT_CONTACTS,
   SITE_STATS,
 } from "@/lib/siteData";
 

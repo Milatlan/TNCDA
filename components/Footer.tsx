@@ -103,7 +103,7 @@
    single-column mobile stack
 ───────────────────────────────────────────── */
 
-import Link from "next/link";
+// import Link from "next/link";
 
 const NAV_LINKS = [
   { label: "About TNCNA",       href: "/#about" },
@@ -116,7 +116,7 @@ const NAV_LINKS = [
   { label: "Terms & Conditions",href: "/terms" },
 ];
 
-import { DISTRICT_CONTACTS, ALL_DISTRICTS } from "@/lib/siteData";
+import { ALL_DISTRICTS } from "@/lib/siteData";
 
 const SOCIALS = [
   {
