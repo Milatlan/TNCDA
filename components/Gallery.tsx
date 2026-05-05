@@ -155,7 +155,7 @@ export default function Gallery() {
 
         {/* GRID */}
         <div className="gallery-grid">
-          {filtered.map((item, i) => (
+          {filtered.map((item) => (
             <div
               key={item.label}
               className={`gallery-card ${item.tall ? "gallery-card--tall" : ""}`}
