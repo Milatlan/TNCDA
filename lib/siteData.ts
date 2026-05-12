@@ -5,7 +5,7 @@
 //   chapters:  "12",
 //   districts: "38",
 //   years:     "5+",
-//   email:     "hello@TNCNA.in",
+//   email:     "admin@tncna.co",
 //   whatsapp:  "+919000000000",
 //   founded:   "2025",
 // };
@@ -361,7 +361,7 @@ export const CONTACT_DISTRICTS = [
    CONTACT PAGE — PRIMARY CONTACT INFO
 ───────────────────────────────────────────── */
 export const CONTACT_INFO = {
-  email:       "hello@TNCNA.in",
+  email:       "admin@tncna.co",
   phone:       "+91 7825901439",
   whatsapp:    "https://wa.me/7825901439",
   headquarters: "46/89, coral merchant street, mannady, george town, Chennai - 600001, Tamil Nadu",

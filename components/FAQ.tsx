@@ -50,7 +50,7 @@
 //             Quick answers before you join the TNCNA network.
 //           </p>
 
-//           <a href="mailto:hello@TNCNA.in" className="faq-cta">
+//           <a href="mailto:admin@tncna.co" className="faq-cta">
 //             Contact Us →
 //           </a>
 //         </div>
@@ -123,7 +123,7 @@ export default function FAQ() {
             </div>
             <div>
               <div className="faq-contact-label">Still have questions?</div>
-              <a href="mailto:hello@TNCNA.in" className="faq-contact-link">hello@TNCNA.in</a>
+              <a href="mailto:admin@tncna.co" className="faq-contact-link">admin@tncna.co</a>
             </div>
           </div>
 

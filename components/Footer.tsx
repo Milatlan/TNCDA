@@ -42,7 +42,7 @@
 //           <div className="footer-contact">
 //             <h4>Contact</h4>
 
-//             <p>Email: <a href="mailto:hello@TNCNA.in">hello@TNCNA.in</a></p>
+//             <p>Email: <a href="mailto:admin@tncna.co">admin@tncna.co</a></p>
 //             <p>Main Office: Chennai, Tamil Nadu</p>
 
 //             <div className="footer-phones">
@@ -234,8 +234,8 @@ export default function Footer() {
                 </span>
                 <div>
                   <p className="footer-contact-label">Email</p>
-                  <a href="mailto:hello@TNCNA.in" className="footer-contact-value">
-                    hello@TNCNA.in
+                  <a href="mailto:admin@tncna.co" className="footer-contact-value">
+                    admin@tncna.co
                   </a>
                 </div>
               </div>
