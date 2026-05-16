@@ -8,17 +8,24 @@ import { EVENTS } from "@/lib/siteData";
 const UPCOMING_EVENTS = EVENTS;
 
 
-const totalEvents = EVENTS.length;
+const totalEvents = EVENTS?.length || 0;
 
-const totalDistricts = new Set(
-  EVENTS.map((e) => e.district)
-).size;
+const totalDistricts =
+  EVENTS && EVENTS.length > 0
+    ? new Set(EVENTS.map((e) => e.district)).size
+    : 0;
 
 // Extract numeric seats safely
-const totalAttendees = EVENTS.reduce((acc, ev) => {
-  const num = parseInt(ev.seats.replace(/\D/g, "")) || 0;
-  return acc + num;
-}, 0);
+const totalAttendees =
+  EVENTS && EVENTS.length > 0
+    ? EVENTS.reduce((acc, ev) => {
+        const num = parseInt(
+          (ev.seats || "").replace(/\D/g, "")
+        ) || 0;
+
+        return acc + num;
+      }, 0)
+    : 0;
 
 const CATEGORY_COLORS: Record<string, string> = {
   Networking: "ev-cat--teal",
@@ -97,7 +104,7 @@ export default function EventsPage() {
           <div className="ev-section-label-inner">
             <span className="ev-section-label">
               <span className="ev-label-pip" />
-              2026 Programme
+              2025 Programme
             </span>
             <span className="ev-section-count">{UPCOMING_EVENTS.length} Events</span>
           </div>
@@ -118,7 +125,7 @@ export default function EventsPage() {
                 <div className="ev-date-block">
                   <span className="ev-date-month">{month}</span>
                   <span className="ev-date-day">{day}</span>
-                  <span className="ev-date-year">2026</span>
+                  <span className="ev-date-year">2025</span>
                 </div>
 
                 {/* Divider */}
