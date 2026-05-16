@@ -12,7 +12,21 @@
 
 
 
-export const EVENTS = [];
+type EventType = {
+  id: string;
+  title: string;
+  subtitle: string;
+  location: string;
+  district: string;
+  month: string;
+  day: string;
+  year: string;
+  category: string;
+  seats: string;
+  type: string;
+};
+
+export const EVENTS: EventType[] = [];
 
 
 // export const EVENTS = [
