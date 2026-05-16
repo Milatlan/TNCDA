@@ -97,7 +97,7 @@ export default function EventsPage() {
           <div className="ev-section-label-inner">
             <span className="ev-section-label">
               <span className="ev-label-pip" />
-              2025 Programme
+              2026 Programme
             </span>
             <span className="ev-section-count">{UPCOMING_EVENTS.length} Events</span>
           </div>
@@ -118,7 +118,7 @@ export default function EventsPage() {
                 <div className="ev-date-block">
                   <span className="ev-date-month">{month}</span>
                   <span className="ev-date-day">{day}</span>
-                  <span className="ev-date-year">2025</span>
+                  <span className="ev-date-year">2026</span>
                 </div>
 
                 {/* Divider */}

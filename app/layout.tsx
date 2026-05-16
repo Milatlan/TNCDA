@@ -36,13 +36,13 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://tncna.co"),
 
-  title: "TNCNA – Tamil Nadu Construction Development Association",
+  title: "TNCNA – Tamil Nadu Construction Network Association",
 
   description:
-    "Tamil Nadu Construction Development Association (TNCNA) — the premier professional body for builders, contractors, and real estate developers across Tamil Nadu and Chennai.",
+    "Tamil Nadu Construction Network Association (TNCNA) — the premier professional body for builders, contractors, and real estate developers across Tamil Nadu and Chennai.",
 
   keywords: [
-    "Tamil Nadu Construction Association",
+    "Tamil Nadu Construction Network Association",
     "TNCNA",
     "Chennai builders association",
     "Tamil Nadu builders",
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "TNCNA – Tamil Nadu Construction Development Association",
+    title: "TNCNA – Tamil Nadu Construction Network Association",
 
     description:
       "Connecting Tamil Nadu's construction industry through leadership, networking, innovation, and professional growth across 45+ chapters.",
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/logo.png",
         width: 1200,
         height: 630,
         alt: "TNCNA",
@@ -101,12 +101,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "TNCNA – Tamil Nadu Construction Development Association",
+    title: "TNCNA – Tamil Nadu Construction Network Association",
 
     description:
       "Connecting Tamil Nadu's construction industry across 45+ chapters.",
 
-    images: ["/og-image.jpg"],
+    images: ["/logo.png"],
   },
 
   robots: {

@@ -12,47 +12,50 @@
 
 
 
-export const EVENTS = [
-  {
-    id:       "ev01",
-    title:    "Construction Networking Meet",
-    subtitle: "Regional professionals meet to discuss project pipelines and form strategic alliances.",
-    location: "Madurai",
-    district: "Madurai District",
-    month:    "JUN",
-    day:      "14",
-    year:     "2025",
-    category: "Networking",
-    seats:    "120 Seats",
-    type:     "In-Person",
-  },
-  {
-    id:       "ev02",
-    title:    "Policy & Legal Workshop",
-    subtitle: "Deep-dive into Tamil Nadu construction law updates, contract compliance, and dispute resolution.",
-    location: "Salem",
-    district: "Salem District",
-    month:    "JUL",
-    day:      "08",
-    year:     "2025",
-    category: "Workshop",
-    seats:    "60 Seats",
-    type:     "In-Person",
-  },
-  {
-    id:       "ev03",
-    title:    "TNCNA Annual Summit 2026",
-    subtitle: "The flagship gathering of all chapter heads, contractors, and industry leaders across Tamil Nadu.",
-    location: "Chennai",
-    district: "Greater Chennai",
-    month:    "SEP",
-    day:      "20",
-    year:     "2025",
-    category: "Summit",
-    seats:    "400+ Seats",
-    type:     "In-Person",
-  },
-];
+export const EVENTS = [];
+
+
+// export const EVENTS = [
+//   {
+//     id:       "ev01",
+//     title:    "Construction Networking Meet",
+//     subtitle: "Regional professionals meet to discuss project pipelines and form strategic alliances.",
+//     location: "Madurai",
+//     district: "Madurai District",
+//     month:    "JUN",
+//     day:      "14",
+//     year:     "2025",
+//     category: "Networking",
+//     seats:    "120 Seats",
+//     type:     "In-Person",
+//   },
+//   {
+//     id:       "ev02",
+//     title:    "Policy & Legal Workshop",
+//     subtitle: "Deep-dive into Tamil Nadu construction law updates, contract compliance, and dispute resolution.",
+//     location: "Salem",
+//     district: "Salem District",
+//     month:    "JUL",
+//     day:      "08",
+//     year:     "2025",
+//     category: "Workshop",
+//     seats:    "60 Seats",
+//     type:     "In-Person",
+//   },
+//   {
+//     id:       "ev03",
+//     title:    "TNCNA Annual Summit 2026",
+//     subtitle: "The flagship gathering of all chapter heads, contractors, and industry leaders across Tamil Nadu.",
+//     location: "Chennai",
+//     district: "Greater Chennai",
+//     month:    "SEP",
+//     day:      "20",
+//     year:     "2025",
+//     category: "Summit",
+//     seats:    "400+ Seats",
+//     type:     "In-Person",
+//   },
+// ];
 
 export const CHAPTERS = [
   { city: "Chennai",     region: "Northern", est: "2019", members: "30+" },
@@ -139,31 +142,10 @@ export const LEADERS: Leader[] = [
     image: "/images/founders/founder.png", 
   },
   {
-    name: "Mr. Feroz",
-    role: "Vice President",
-    tier: "executive",
-    initial: "VP",
-    tag: "Executive",
-  },
-  {
-    name: "Mr. Murugappan",
-    role: "Secretary",
-    tier: "executive",
-    initial: "S",
-    tag: "Executive",
-  },
-  {
-    name: "Mr. Yesuraja",
-    role: "Joint Secretary",
-    tier: "chapter",
-    initial: "JS",
-    tag: "Chapter",
-  },
-  {
     name: "Mr. Gangadharan",
-    role: "Treasurer",
+    role: "Co-Founder",
     tier: "chapter",
-    initial: "T",
+    initial: "CF",
     tag: "Chapter",
   },
 ];
@@ -362,8 +344,8 @@ export const CONTACT_DISTRICTS = [
 ───────────────────────────────────────────── */
 export const CONTACT_INFO = {
   email:       "admin@tncna.co",
-  phone:       "+91 7825901439",
-  whatsapp:    "https://wa.me/7825901439",
+  phone:       "+91 9159535379",
+  whatsapp:    "https://wa.me/9159535379",
   headquarters: "46/89, coral merchant street, mannady, george town, Chennai - 600001, Tamil Nadu",
 };
 
